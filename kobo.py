@@ -44,3 +44,10 @@ def submit_data(data):
 if __name__ == '__main__':
     res = submit_data('working')
     print(res)
+
+
+
+# def submit_data(data, file_name):
+#     ...
+#     another_file_tuple = (file_name, open(file_name, 'rb'))
+#     files = {'xml_submission_file': file_tuple, file_name: another_file_tuple}
